@@ -263,7 +263,7 @@ export default function Works() {
               </button>
 
               {/* Video Player Container */}
-              <div className="relative bg-card border border-border overflow-hidden">
+              <div className="relative bg-card border border-border overflow-hidden max-w-2xl mx-auto">
                 {/* Video Area */}
                 <div className="relative aspect-video">
                   <img
