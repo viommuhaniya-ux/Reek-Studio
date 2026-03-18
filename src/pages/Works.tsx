@@ -384,7 +384,7 @@ export default function Works() {
 
                 {/* Info section */}
                 <div className="p-4 border-t border-border">
-                  <h2 className="font-display text-2xl md:text-3xl tracking-wider mb-3">{selectedWork.title}</h2>
+                  <h2 className="font-display text-2xl md:text-2xl tracking-wider mb-3">{selectedWork.title}</h2>
                   <p className="text-muted leading-relaxed">{selectedWork.description}</p>
                   
                   <div className="mt-6 pt-6 border-t border-border grid grid-cols-2 md:grid-cols-4 gap-3">
