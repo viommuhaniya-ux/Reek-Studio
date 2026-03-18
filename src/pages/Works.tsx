@@ -383,11 +383,11 @@ export default function Works() {
                 </div>
 
                 {/* Info section */}
-                <div className="p-6 border-t border-border">
+                <div className="p-4 border-t border-border">
                   <h2 className="font-display text-2xl md:text-3xl tracking-wider mb-3">{selectedWork.title}</h2>
                   <p className="text-muted leading-relaxed">{selectedWork.description}</p>
                   
-                  <div className="mt-6 pt-6 border-t border-border grid grid-cols-2 md:grid-cols-4 gap-6">
+                  <div className="mt-6 pt-6 border-t border-border grid grid-cols-2 md:grid-cols-4 gap-3">
                     <div>
                       <span className="text-muted text-xs tracking-widest uppercase block mb-1">Role</span>
                       <p className="font-medium">Editor & Colorist</p>
