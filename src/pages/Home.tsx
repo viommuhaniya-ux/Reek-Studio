@@ -97,10 +97,10 @@ export default function Home() {
       <section className="py-24 border-y border-border">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-12">
-            <AnimatedCounter end={150} suffix="+" label="Projects Completed" />
+            <AnimatedCounter end={124} suffix="+" label="Projects Completed" />
             <AnimatedCounter end={8} suffix="+" label="Years Experience" />
             <AnimatedCounter end={50} suffix="+" label="Happy Clients" />
-            <AnimatedCounter end={12} label="Awards Won" />
+            <AnimatedCounter end={3} label="Awards Won" />
           </div>
         </div>
       </section>
