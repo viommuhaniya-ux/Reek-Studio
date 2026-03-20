@@ -1,0 +1,30 @@
+.video-showcase {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 20px;
+}
+
+.video-showcase video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.video-showcase video:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+    .video-showcase {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .video-showcase {
+        gap: 12px;
+    }
+}
